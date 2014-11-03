@@ -3,6 +3,8 @@
 A humble attempt at making JavaScript prototypes and inheritance hierarchies
 slightly more sane to work with, especially in the Chrome debugger.
 
+![A screenshot of sane console.dir output](http://i.imgur.com/LRUdrc4.png)
+
 
 # Usage
 
@@ -16,7 +18,11 @@ var Animal = BasicObject.extend("Animal", {
     legs: 2
 });
 
-a = Animal.create("Ogden");
+var Dog = Animal.extend("Dog", {
+    legs: 4
+});
+
+d = Dog.create("Ogden");
 ```
 
 
