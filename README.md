@@ -3,7 +3,7 @@
 A humble attempt at making JavaScript prototypes and inheritance hierarchies
 slightly more sane to work with, especially in the Chrome debugger.
 
-![A screenshot of sane console.dir output](http://i.imgur.com/LRUdrc4.png)
+![A screenshot of sane console.dir output](http://i.imgur.com/LRUdrc4.png?1)
 
 
 # Usage
