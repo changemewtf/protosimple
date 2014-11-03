@@ -1,0 +1,1 @@
+coffee --bare --compile --watch --map -o test/ test/test_protosimple.coffee
